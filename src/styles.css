@@ -75,16 +75,16 @@ p {
   padding: 80px 60px;
 }
 
-.about-hero {
+.content-hero {
   padding: 180px 20px;
   line-height: 1.2;
 }
 
-.about-hero h1 {
+.content-hero h1 {
   font-size: 64px;
 }
 
-.about-hero h2 {
+.content-hero h2 {
   font-size: 18px;
   font-weight: 700;
 }
@@ -108,7 +108,7 @@ p {
     padding: 0;
     text-align: center;
   }
-  .about-hero {
+  .content-hero {
     padding: 80px 20px;
     text-align: center;
   }
