@@ -136,7 +136,10 @@ p {
     text-align: center;
   }
   .content-hero {
-    padding: 80px 20px;
+    padding: 40px 20px;
     text-align: center;
+  }
+  .about-img {
+    max-height: 75%;
   }
 }
