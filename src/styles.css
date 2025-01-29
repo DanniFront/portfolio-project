@@ -31,7 +31,7 @@ nav a:hover {
 }
 
 a {
-  color: #272142;
+  color: var(--primary-font-color);
   text-decoration: none;
   opacity: 0.7;
 }
@@ -54,6 +54,12 @@ h3 {
   font-size: 64px;
   font-weight: 700;
   color: #000000;
+}
+
+h4 {
+  font-size: 38px;
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
 }
 
 p {
@@ -103,7 +109,7 @@ p {
 }
 
 .content-hero {
-  padding: 180px 20px;
+  padding: 180px 20px 50px;
   line-height: 1.2;
 }
 
@@ -119,6 +125,42 @@ p {
 .about-img {
   display: block;
   margin: 20px auto;
+}
+
+footer .contact-box {
+  background: var(--branding-color);
+  padding: 40px 160px;
+  margin: 30px 0;
+  border-radius: 10px;
+}
+
+footer p {
+  font-size: 18px;
+}
+
+footer .email-link {
+  text-align: center;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+footer .email-link:hover {
+  color: var(--secondary-color);
+}
+
+footer .social-links a {
+  color: var(--secondary-color);
+  background: var(--branding-color);
+  margin: 0 20px;
+  padding: 10px 20px;
+  font-size: 25px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: #fff;
+  background: var(--secondary-color);
 }
 
 @media (max-width: 900px) {
