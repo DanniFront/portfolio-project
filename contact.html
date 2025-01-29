@@ -25,17 +25,21 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
-    <meta name="description" content="Look at my portfolio - Daniela Mure." />
-    <title>My portfolio - Daniela Mure</title>
+    <meta name="description" content="Contact me page - Daniela Mure" />
+    <title>Contact page - Daniela Mure</title>
   </head>
   <body>
     <div class="container">
       <nav class="d-flex justify-content-end">
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/portfolio.html">Portfolio</a></li>
-          <li class="active"><a href="/contact.html">Contact</a></li>
+          <li><a href="/" title="Daniela homepage">Home</a></li>
+          <li><a href="/about.html" title="About Daniela">About</a></li>
+          <li>
+            <a href="/portfolio.html" title="Daniela portfolio">Portfolio</a>
+          </li>
+          <li class="active">
+            <a href="/contact.html" title="Contact Daniela">Contact</a>
+          </li>
         </ul>
       </nav>
     </div>
@@ -50,6 +54,8 @@
           target="_blank"
           >Daniela Mure</a
         >
+        <h2 class="mt-4">GitHub</h2>
+        <a href="https://github.com/DanniFront" target="_blank">Danni</a>
 
         <footer>
           <div
@@ -68,11 +74,15 @@
             </div>
           </div>
           <div class="d-flex justify-content-center">
-            <a href="mailto:mure.daniela@gmail.com" class="email-link mb-4"
+            <a
+              href="mailto:mure.daniela@gmail.com"
+              class="email-link mb-4 d-none d-md-block"
               >mure.daniela@gmail.com</a
             >
           </div>
-          <div class="social-links d-flex justify-content-center mb-5">
+          <div
+            class="social-links d-flex justify-content-center mb-5 d-none d-md-flex"
+          >
             <a href="https://www.linkedin.com/in/daniela-mure-33a929b1/"
               ><i class="fa-brands fa-linkedin"></i
             ></a>
@@ -80,6 +90,14 @@
               ><i class="fa-brands fa-github"></i
             ></a>
           </div>
+          <p class="text-center text-muted mt-5">
+            This project was coded by Daniela Mure, and is
+            <a
+              href="https://github.com/DanniFront/portfolio-project.git"
+              target="_blank"
+              >open sourced</a
+            >
+          </p>
         </footer>
       </div>
     </div>
