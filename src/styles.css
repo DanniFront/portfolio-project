@@ -153,15 +153,17 @@ footer a {
   text-decoration: none;
   opacity: 0.8;
 }
-
+footer p a:hover {
+  color: var(--secondary-color);
+}
 footer .social-links a {
   color: var(--secondary-color);
   background: var(--branding-color);
   margin: 0 20px;
-  padding: 10px 20px;
-  font-size: 25px;
-  border-radius: 50%;
-  transition: all 100ms ease-in-out;
+  padding: 15px 22px;
+  font-size: 26px;
+  border-radius: 25%;
+  transition: all 150ms ease-in-out;
 }
 
 footer .social-links a:hover {
